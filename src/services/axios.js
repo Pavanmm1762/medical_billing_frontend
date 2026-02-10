@@ -1,7 +1,7 @@
  import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://10.204.138.131:8080/api",
+  baseURL: "https://medical-billing-backend-6lj4.onrender.com/api",
   timeout: 5000,
   headers: {
     "Content-Type": "application/json",

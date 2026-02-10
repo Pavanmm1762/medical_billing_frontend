@@ -16,14 +16,14 @@ export const getMonthlyReport = async (month) => {
 
 export const downloadPdf = (month) => {
   window.open(
-    `http://localhost:8080/api/reports/monthly/pdf?month=${month}`,
+    `https://medical-billing-backend-6lj4.onrender.com/api/reports/monthly/pdf?month=${month}`,
     "_blank"
   );
 };
 
 export const downloadExcel = (month) => {
   window.open(
-    `http://localhost:8080/api/reports/monthly/excel?month=${month}`,
+    `https://medical-billing-backend-6lj4.onrender.com/api/reports/monthly/excel?month=${month}`,
     "_blank"
   );
 };
